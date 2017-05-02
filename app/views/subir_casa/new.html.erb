@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+        <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet" type = 'text/css'> 
+
+<p class ="tam-default"> Hola bienvenido </p>
+<p class ="tam-default"> H </p>
+<h1 class = "colores">SubirCasa</h1>
+
+
+<%= form_for(@property) do  |f|%>
+
+<div class="landing-page"><div class="form-appointment"><div class="wpcf7" id="wpcf7-f560-p590-o1"><form action="/landing-page-template-do-not-delete/#wpcf7-f560-p590-o1" method="post" class="wpcf7-form" novalidate="novalidate" _lpchecked="1">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="560">
+<input type="hidden" name="_wpcf7_version" value="3.5">
+<input type="hidden" name="_wpcf7_locale" value="">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f560-p590-o1">
+<input type="hidden" name="_wpnonce" value="dbb28877d5">
+</div>
+<div class="group">
+<div style="width: 48%; float: left;">
+
+<span class="wpcf7-form-control-wrap email-680"><input type="email" name="email-680" value="" size="45" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" placeholder="Arrendador"></span><br>
+
+<%= f.text_area :direccion, placeholder:  "Dirección"%><br>
+<%= f.text_area :descripcion, placeholder:  "Descripción General (sin servicios)"%><br>
+
+
+<p> Costo 
+<%= f.text_field :precio, placeholder:  "Precio deseado"%><br>
+
+
+</p>
+<div style="text-align: center; padding-top: 2em; border-top: 1px solid rgb(153, 202, 129); margin-top: 1em;"><input type="submit" value="Subir Imagen" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="http://www.professionalaudiologicalservices.com/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"></div>
+
+</div>
+
+
+<div style="width: 48%; float: right;">
+
+
+<h4>Tipo de propiedad:</h4>
+<p><span class="wpcf7-form-control-wrap checkbox-465"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Cuarto">&nbsp;<span class="wpcf7-list-item-label">Cuarto</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Departamento">&nbsp;<span class="wpcf7-list-item-label">Departamento</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Casa">&nbsp;<span class="wpcf7-list-item-label">Casa</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Otro">&nbsp;<span class="wpcf7-list-item-label">Otro</span></label></span></p>
+<%= f.text_field :tipo, placeholder:  "Especifica el otro / Confirma el tipo"%><br><br>
+
+<h4>Fechas de Disponibilidad</h4>
+<div class="container">
+    <div class="row">
+        <div class='col-sm-4'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </div>
+</div>
+
+<h4>Servicios que ofrece</h4>
+<p>
+<span class="wpcf7-form-control-wrap checkbox-246"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Internet">&nbsp;<span class="wpcf7-list-item-label">Internet</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Estacionamiento">&nbsp;<span class="wpcf7-list-item-label">Estacionamiento</span></label></span>
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Escritorio">&nbsp;<span class="wpcf7-list-item-label">Escritorio</span></label>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Lavanderia">&nbsp;<span class="wpcf7-list-item-label">Lavanderia</span></label></span>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Gimnasio">&nbsp;<span class="wpcf7-list-item-label">Gimnasio</span></label></span>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Portero">&nbsp;<span class="wpcf7-list-item-label">Portero</span></label></span>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Cocina">&nbsp;<span class="wpcf7-list-item-label">Cocina</span></label></span>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Baño Individual">&nbsp;<span class="wpcf7-list-item-label">Baño Individual</span></label></span>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Aire Acondicionado">&nbsp;<span class="wpcf7-list-item-label">Aire Acondicionado</span></label></span>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="TV">&nbsp;<span class="wpcf7-list-item-label">TV</span></label></span>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Area para Fumar">&nbsp;<span class="wpcf7-list-item-label">Area para Fumar</span></label></span>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Recoleccion de basura">&nbsp;<span class="wpcf7-list-item-label">Recoleccion de basura</span></label></span>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Limpieza">&nbsp;<span class="wpcf7-list-item-label">Limpieza</span></label></span>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Lavadora">&nbsp;<span class="wpcf7-list-item-label">Lavadora</span></label></span>
+
+<span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Otros">&nbsp;<span class="wpcf7-list-item-label">Otros</span></label></span>
+
+<span class="wpcf7-form-control-wrap text-680"><input type="text" name="text-680" value="" size="45" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" placeholder="Especificar"></span><br>
+
+</span></span>
+
+</p>
+<div style="text-align: center; padding-top: 2em; border-top: 1px solid rgb(153, 202, 129); margin-top: 1em;"><div>
+    <%= f.submit "Subir propiedad" %>
+</div>
+<%end%>
+</div>
+  <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div></div>
+</head>
+</html>

@@ -1,0 +1,25 @@
+<br></br>
+<br></br>
+
+<div>
+    Descripción: <%= @property.descripcion%>
+    
+</div>
+
+<div>
+    Tipo: <%= @property.tipo%>
+</div>
+<div>
+    Precio: $<%= @property.precio%>
+</div>
+<div>
+    Direccion: <%= @property.direccion%>
+</div>
+<div>
+    Servicios: 
+</div>
+<% @property.services.each do |service|%>
+<div>
+&nbsp&nbsp&nbsp&nbsp<%= service.nombre%>
+</div>
+<%end%>
