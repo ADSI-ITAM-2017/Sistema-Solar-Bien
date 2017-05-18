@@ -11,6 +11,27 @@
 
   <body>
   	 <!-- Navigation -->
+  	<style type="text/css">
+	.center{
+		margin: 0 auto;
+		text-align: center;
+	}
+	.navbar-inverse .navbar-nav{
+		color: white;
+	}
+	body{
+		padding-top: 120px;
+		background: url(http://intercambio.itam.mx/Nueva%20Pagina/Alumnos%20Internacionales/fotosyvideos/estacionamiento.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.jumbotron{
+		opacity: 0.8;
+	}
+	#opaque{
+		opacity:1;
+	}
+		</style>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,9 +59,24 @@
         </div>
         <!-- /.container -->
     </nav>
+    <div class="container">
+		<div class="jumbotron center">
+			<p id="sl">¡Bienvenid@!</p>
+
+			<p id="sl">Inicia la experiencia AirbnbITAM</p>
+
+		</div>
+		</div>
+		<!-- Botones e iconos -->
+
+
+</div>
 
     <div class="container">
     <%= yield %>
     </div>
   </body>
 </html>
+
+
+
