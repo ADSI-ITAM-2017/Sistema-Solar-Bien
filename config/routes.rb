@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   
+  get 'arrendatario/index'
+
+  get 'arrendador/index'
+
   get 'home/index'
 
    get 'subir_casa/new'
