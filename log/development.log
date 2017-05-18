@@ -11084,6 +11084,7 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 111ms (Views: 107.0ms | ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 Started GET "/" for ::1 at 2017-05-18 03:07:40 -0500
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by HomeController#index as HTML
@@ -11308,5 +11309,105 @@ Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/application
   Rendered home/index.html.erb within layouts/application (10.8ms)
 Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+=======
+Started GET "/properties/index" for 127.0.0.1 at 2017-05-18 03:18:20 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PropertiesController#index as HTML
+  Rendering properties/index.html.erb within layouts/application
+  [1m[36mProperty Load (0.8ms)[0m  [1m[34mSELECT "properties".* FROM "properties"[0m
+  Rendered properties/index.html.erb within layouts/application (991.3ms)
+Completed 200 OK in 1121ms (Views: 1033.7ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2017-05-18 03:18:25 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (118.2ms)
+Completed 200 OK in 167ms (Views: 161.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/arrendador/index" for 127.0.0.1 at 2017-05-18 03:18:34 -0500
+Processing by ArrendadorController#index as HTML
+  Rendering arrendador/index.html.erb within layouts/application
+  Rendered arrendador/index.html.erb within layouts/application (135.2ms)
+Completed 200 OK in 274ms (Views: 268.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/subir_casa/new" for 127.0.0.1 at 2017-05-18 03:19:25 -0500
+Processing by SubirCasaController#new as HTML
+  Rendering subir_casa/new.html.erb within layouts/application
+  Rendered subir_casa/new.html.erb within layouts/application (46.1ms)
+Completed 200 OK in 189ms (Views: 183.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/arrendador/index" for 127.0.0.1 at 2017-05-18 03:20:51 -0500
+Processing by ArrendadorController#index as HTML
+  Rendering arrendador/index.html.erb within layouts/application
+  Rendered arrendador/index.html.erb within layouts/application (132.4ms)
+Completed 200 OK in 189ms (Views: 185.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2017-05-18 03:20:56 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (208.6ms)
+Completed 200 OK in 255ms (Views: 251.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/arrendatario/index" for 127.0.0.1 at 2017-05-18 03:21:08 -0500
+Processing by ArrendatarioController#index as HTML
+  Rendering arrendatario/index.html.erb within layouts/application
+  Rendered arrendatario/index.html.erb within layouts/application (152.7ms)
+Completed 200 OK in 205ms (Views: 198.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/subir_casa/new" for 127.0.0.1 at 2017-05-18 03:21:09 -0500
+Processing by SubirCasaController#new as HTML
+  Rendering subir_casa/new.html.erb within layouts/application
+  Rendered subir_casa/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 233ms (Views: 226.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/arrendatario/index" for 127.0.0.1 at 2017-05-18 03:21:14 -0500
+Processing by ArrendatarioController#index as HTML
+  Rendering arrendatario/index.html.erb within layouts/application
+  Rendered arrendatario/index.html.erb within layouts/application (121.0ms)
+Completed 200 OK in 159ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/arrendatario/index" for 127.0.0.1 at 2017-05-18 03:21:20 -0500
+Processing by ArrendatarioController#index as HTML
+  Rendering arrendatario/index.html.erb within layouts/application
+  Rendered arrendatario/index.html.erb within layouts/application (132.7ms)
+Completed 200 OK in 173ms (Views: 168.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/subir_casa/new" for 127.0.0.1 at 2017-05-18 03:21:21 -0500
+Processing by SubirCasaController#new as HTML
+  Rendering subir_casa/new.html.erb within layouts/application
+  Rendered subir_casa/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 164ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/subir_casa/index" for 127.0.0.1 at 2017-05-18 03:21:25 -0500
+Processing by SubirCasaController#index as HTML
+  Rendering subir_casa/index.html.erb within layouts/application
+  Rendered subir_casa/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 140ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/subir_casa/new" for 127.0.0.1 at 2017-05-18 03:21:29 -0500
+Processing by SubirCasaController#new as HTML
+  Rendering subir_casa/new.html.erb within layouts/application
+  Rendered subir_casa/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 162ms (Views: 156.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2017-05-18 03:21:36 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (117.9ms)
+Completed 200 OK in 157ms (Views: 154.0ms | ActiveRecord: 0.0ms)
+>>>>>>> 6e25af089210f21c3ee3aa0808cbac9862b6355b
 
 
